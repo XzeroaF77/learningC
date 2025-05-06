@@ -1,5 +1,5 @@
 # learningC
 
-Nothing is impossible if you are consistent and persistance to learn new things. 
+Nothing is impossible if you stay consistent and persistent in learning.
 
-I decided to keep practice till I am good in coding. 
+I will keep practicing until I master coding.
