@@ -1,3 +1,5 @@
+//To check if number is negative or not
+
 #include <unistd.h>
 
 void    ft_is_negative(int n)
