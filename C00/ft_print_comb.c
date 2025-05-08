@@ -50,4 +50,8 @@ int	main(void)
 	ft_print_comb();
 	return (0);
 }
+
+• Expected output:
+$>./a.out | cat -e
+012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 789$>
 */
