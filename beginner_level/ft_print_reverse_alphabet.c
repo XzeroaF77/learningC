@@ -1,3 +1,5 @@
+//To print from z to a in program
+
 #include <unistd.h>
 
 void	ft_print_reverse_alphabet(char c)
