@@ -1,3 +1,5 @@
+//To print a to z in program
+
 #include <unistd.h>
 
 void	ft_print_alphabet(char c)
