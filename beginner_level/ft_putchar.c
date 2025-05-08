@@ -1,3 +1,5 @@
+//To print one character 'a' in program
+
 #include <unistd.h> //print one character
 
 void	ft_putchar(char c)
