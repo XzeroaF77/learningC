@@ -4,9 +4,9 @@
 
 void	ft_print_int(int n)//Prints a single digit(0-9)
 {
-	char	*alphabet;
+	char	*alphabet;//creates a pointer named alphabet that can hold the address of a character (or a string, which is just a sequence of characters in memory).
 
-	alphabet = "0123456789";//string where each character represents a digit
+	alphabet = "0123456789";//string where each character represents a digit//makes alphabet point to a read-only string in memory containing the digits 0 through 9.
 	write (1, alphabet + n, 1);//print the digit at position n in the string.
 }
 
