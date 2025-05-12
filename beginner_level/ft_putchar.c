@@ -1,15 +1,16 @@
 //To print one character 'a' in program
 
-#include <unistd.h> //print one character
-
-void	ft_putchar(char c)
+#include <unistd.h>//header file for write ()	
+//Function declaration and definition
+void	ft_putchar(char c)//function definition(also serves as declaration in C)
 {
-	write(1, &c, 1);
+	write(1, &c, 1);//write the character 'c' to standard output
 }
-
+//Main function
 int	main(void)
 {
-	ft_putchar('c');
+	ft_putchar('c');//call the function with character 'c'
+	return 0;//return 0 to indicate successful execution
 }
 
 /*
