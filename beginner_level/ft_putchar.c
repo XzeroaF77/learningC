@@ -6,12 +6,14 @@ void	ft_putchar(char c)//function definition(also serves as declaration in C)
 {
 	write(1, &c, 1);//write the character 'c' to standard output
 }
+/*
 //Main function
 int	main(void)
 {
 	ft_putchar('c');//call the function with character 'c'
 	return 0;//return 0 to indicate successful execution
 }
+*/
 
 /*
 #include <stdio.h>//use ASCII values to display certain characters.
